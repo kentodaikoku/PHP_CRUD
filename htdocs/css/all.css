@@ -1,0 +1,76 @@
+body {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+header {
+    width: 100%;
+    background-color: #f5deb3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+header ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+header li {
+    padding-right: 10px;
+}
+
+.userName {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.logo {
+    width: 400px;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.cart {
+    width: 30px;
+    height: 40px;
+}
+
+.cart:hover {
+    width: 40px;
+}
+
+/*ログイン、新規作成画面用ヘッダー*/
+#nosignCart {
+    padding-right: 10px;
+}
+#nosignLogo {
+    padding-left: 10px;
+}
+
+/* メッセージ表示 */
+.error {
+    color: red;
+}
+
+.success {
+    color: rgb(20, 233, 162);
+    font-size: 1.5rem;
+}
